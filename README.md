@@ -35,6 +35,11 @@ Ce répertoire rassemble les projets menés dans le cadre des programmes Data An
 [Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist) contient les projets menés lors de ce parcours.
 Chaque sous dossier contient une brève description du projet, le code et une présentation des résultats.
 
+### résumé du parcours
+<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/DS_program.gif"
+alt="Data Sciencist program"
+align="middle"/>
+
 ## Parcours Data Analyst 
 
 [Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Analyst) contient les projets menés lors de ce parcours.
