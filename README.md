@@ -36,7 +36,7 @@ Ce répertoire rassemble les projets menés dans le cadre des programmes Data An
 Chaque sous dossier contient une brève description du projet, le code et une présentation des résultats.
 
 ### Résumé du parcours
-<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/DS_program.gif"
+<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/DS_Program.gif"
 alt="Data Sciencist program"
 align="middle"/>
 
@@ -46,6 +46,7 @@ align="middle"/>
 Chaque sous dossier contient une brève description du projet, le code et une présentation des résultats.
 
 ### Résumé du parcours
-<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/DA_program.gif"
+<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/DA_Program.gif"
 alt="Data Analyst program"
 align="middle"/>
+
