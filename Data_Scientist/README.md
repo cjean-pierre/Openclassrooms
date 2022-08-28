@@ -6,7 +6,7 @@ Ce dossier contient les projets suivants:
 une start-up de la EdTech a un projet d'expansion à l'international. Elle vous confie une mission d’analyse exploratoire, pour déterminer si les données sur l’éducation de la banque mondiale permettent d’informer le projet d’expansion.
 
 ### Résumé
-<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/P2_Academy_logo.png"
+<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/P2_Academy.png"
 alt="Academy_logo"
 style="width:300px;height:175px; display:block;"
 align="middle"/>
