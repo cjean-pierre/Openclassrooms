@@ -30,12 +30,12 @@ align="middle"/>French version
 
 Ce répertoire rassemble les projets menés dans le cadre des programmes Data Analyst et Data Scientist d'Openclassrooms.
 
-## Data Scientist program
+## Parcours Data Scientist
 
 [Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist) contient les projets menés lors de ce parcours.
 Chaque sous dossier contient une brève description du projet, le code et une présentation des résultats.
 
-## Data Analyst program
+## Parcours Data Analyst 
 
 [Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Analyst) contient les projets menés lors de ce parcours.
 Chaque sous dossier contient une brève description du projet, le code et une présentation des résultats.
