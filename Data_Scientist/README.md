@@ -43,7 +43,11 @@ Storytelling et visualisation de données
 ### Scénario
 Vous travaillez pour la ville de Seattle. Pour atteindre son objectif de ville neutre en émissions de carbone en 2050, votre équipe s’intéresse de près à la consommation et aux émissions des bâtiments non destinés à l’habitation.vous voulez tenter de prédire les émissions de CO2 et la consommation totale d’énergie de ces bâtiments.
 
-
+### Résumé
+<img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/P4_seattle_energy.png"
+alt="Seattle"
+style="width:400px;height:220px; display:block;"
+align="middle"/>
 
 ### Compétences mises en oeuvre
 Mise en place un modèle d'apprentissage supervisé adapté à une problématique métier
