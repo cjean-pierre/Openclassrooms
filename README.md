@@ -10,13 +10,13 @@ This repository gather projects undertaken as part of Openclassrooms programs in
 
 ## Data Scientist program
 
-[This folder](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist) contains the projects accomplished during this program.
+> [This folder](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist) contains the projects accomplished during this program.
 Each subfolder contains an overview of the projet, the code and a business presentation of the results.
 The program was followed in French, as such the comments and presentation are in French language. 
 
 ## Data Analyst program
 
-[This folder](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Analyst) contains the projects accomplished during this program.
+> [This folder](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Analyst) contains the projects accomplished during this program.
 Each subfolder contains an overview of the projet, the code and a business presentation of the results.
 The program was followed in French, as such the comments and presentation are in French language. 
 
@@ -32,7 +32,7 @@ Ce répertoire rassemble les projets menés dans le cadre des programmes Data An
 
 ## Parcours Data Scientist
 
-[Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist) contient les projets menés lors de ce parcours.
+> [Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist) contient les projets menés lors de ce parcours.
 Chaque sous dossier contient une brève description du projet, le code et une présentation des résultats.
 
 ### Résumé du parcours
@@ -42,7 +42,7 @@ align="middle"/>
 
 ## Parcours Data Analyst 
 
-[Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Analyst) contient les projets menés lors de ce parcours.
+> [Ce dossier](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Analyst) contient les projets menés lors de ce parcours.
 Chaque sous dossier contient une brève description du projet, le code et une présentation des résultats.
 
 ### Résumé du parcours
