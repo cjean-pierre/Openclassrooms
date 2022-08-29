@@ -38,3 +38,16 @@ Analyse exploratoire de données structurées<br>
 Analyses statistiques univariées et multivariées <br>
 Storytelling et visualisation de données
 
+## [Projet 4 - Anticipez les besoins en consommation de bâtiments](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P4_Seattle_Energy)
+
+### Scénario
+Vous travaillez pour la ville de Seattle. Pour atteindre son objectif de ville neutre en émissions de carbone en 2050, votre équipe s’intéresse de près à la consommation et aux émissions des bâtiments non destinés à l’habitation.vous voulez tenter de prédire les émissions de CO2 et la consommation totale d’énergie de ces bâtiments.
+
+
+
+### Compétences mises en oeuvre
+Mise en place un modèle d'apprentissage supervisé adapté à une problématique métier
+Adapter les hyperparamètres d'un algorithme d'apprentissage supervisé afin de l'améliorer
+Transformer les variables pertinentes d'un modèle d'apprentissage supervisé
+Évaluer les performances d’un modèle d'apprentissage supervisé
+
