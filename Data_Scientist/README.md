@@ -55,3 +55,18 @@ Adapter les hyperparamètres d'un algorithme d'apprentissage supervisé afin de 
 Transformer les variables pertinentes d'un modèle d'apprentissage supervisé
 Évaluer les performances d’un modèle d'apprentissage supervisé
 
+## [Projet 5 - Segmentez des clients d'un site e-commerce](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P5_Customer%20segmentation)
+
+### Scénario
+Vous êtes consultant pour Olist, un site e-commerce brésilien. Les équipes marketing ont besoin de segmenter leurs clients pour optimiser les campagnes de communication.
+### Résumé
+
+### Compétences mises en oeuvre
+Mettre en place le modèle d'apprentissage non supervisé adapté au problème métier
+Transformer les variables pertinentes d'un modèle d'apprentissage non supervisé
+Adapter les hyperparamètres d'un algorithme non supervisé afin de l'améliorer
+Évaluer les performances d’un modèle d'apprentissage non supervisé
+
+## [Projet 6 - Segmentez des clients d'un site e-commerce]
+### Scénario
+Votre entreprise cherche à lancer une place de marché e-commerce. Vous devrez tester la faisabilité d'un moteur de classification de biens de consommation.
