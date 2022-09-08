@@ -12,6 +12,6 @@ align="center"/>
 alt="seaborn"
 align="center"/>
 <img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/scikit_learn_logo.png"
-alt="seaborn"
+alt="scikit-learn"
 align="center"/>
 ## Compétences mises en oeuvres
