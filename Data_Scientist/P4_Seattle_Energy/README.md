@@ -1,3 +1,5 @@
+## Compétences mises en oeuvres
+
 ## Bibliothèques utilisées
 <img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/Numpy_logo.png"
 alt="numpy"
@@ -14,4 +16,10 @@ align="center"/>
 <img src="https://github.com/cjean-pierre/Openclassrooms/blob/main/Media/scikit_learn_logo.png"
 alt="scikit-learn"
 align="center"/>
-## Compétences mises en oeuvres
+
+## Algorithmes
+Ridge Regression </br>
+Lasso Regression </br>
+Kernel Regression </br>
+Decision Tree </br>
+Gradient Boosting Regression </br>
