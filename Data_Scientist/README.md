@@ -67,6 +67,6 @@ Transformer les variables pertinentes d'un modèle d'apprentissage non supervis�
 Adapter les hyperparamètres d'un algorithme non supervisé afin de l'améliorer
 Évaluer les performances d’un modèle d'apprentissage non supervisé
 
-## [Projet 6 - Classifiez des biens de consommation]
+## [Projet 6 - Classifiez des biens de consommation](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P6_Classification_Etude)
 ### Scénario
 Votre entreprise cherche à lancer une place de marché e-commerce. Vous devrez tester la faisabilité d'un moteur de classification de biens de consommation.
