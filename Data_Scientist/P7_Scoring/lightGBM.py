@@ -20,7 +20,6 @@ def kfold_lightgbm(df, num_folds, debug=False):
     del df
 
     train_df.replace(np.inf, np.nan, inplace=True)
-    train_df.fillna(0, inplace=True)
 
     # Cross validation model
     folds = StratifiedKFold(n_splits=num_folds, shuffle=True)
