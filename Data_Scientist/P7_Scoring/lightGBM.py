@@ -72,7 +72,11 @@ def kfold_lightgbm(df, num_folds, debug=False):
 
         oof_preds[valid_idx] = clf.predict_proba(valid_x, num_iteration=clf.best_iteration_)[:, 1]
         contrib.append(clf.predict_proba(valid_x, num_iteration=clf.best_iteration_, pred_contrib=True))
+        
+        # Attention ici !
         a_preds[valid_idx] = clf.predict(valid_x, num_iteration=clf.best_iteration_)
+        
+        
         sub_preds += clf.predict_proba(test_df[feats], num_iteration=clf.best_iteration_)[:, 1] / folds.n_splits
 
         fold_importance_df = pd.DataFrame()
