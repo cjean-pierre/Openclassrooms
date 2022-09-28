@@ -44,7 +44,7 @@ def discrimin_threshold(x, y, estimator, n_trials, outpath, is_fitted=True, fbet
     visualizer.show(outpath=outpath, clear_figure=True)
 
 
-def kfold_lightgbm(train_df, test_df, num_folds, smote=False, class_weight=None, vis=True, contrib=False):
+def kfold_lightgbm(train_df, test_df, num_folds, smote=False, class_weight=None, vis=True, fbeta=1.3, contrib=False):
 
     """
         perform stratified cross validation on lightgbm model
@@ -98,7 +98,7 @@ def kfold_lightgbm(train_df, test_df, num_folds, smote=False, class_weight=None,
                     callbacks=[log_evaluation(200), early_stopping(200)])
             if vis:
                 discrimin_threshold(valid_x, valid_y, estimator=clf, n_trials=1,
-                                    outpath=f'smote_discrim{n_fold}', is_fitted=True, fbeta=1.3)
+                                    outpath=f'smote_discrim{n_fold}', is_fitted=True, fbeta=fbeta)
 
         else:
             print('class_weight :', class_weight)
@@ -110,7 +110,7 @@ def kfold_lightgbm(train_df, test_df, num_folds, smote=False, class_weight=None,
                     callbacks=[log_evaluation(200), early_stopping(200)])
             if vis:
                 discrimin_threshold(valid_x, valid_y, estimator=clf, n_trials=1,
-                                    outpath=f'discrim_cweight_{n_fold}', is_fitted=True, fbeta=1.3)
+                                    outpath=f'discrim_cweight_{n_fold}', is_fitted=True, fbeta=fbeta)
 
         # predictions
 
@@ -130,10 +130,24 @@ def kfold_lightgbm(train_df, test_df, num_folds, smote=False, class_weight=None,
         del clf, train_x, train_y, valid_x, valid_y
         gc.collect()
 
-    return feature_importance_df, oof_preds, sub_preds, np.vstack(oof_contrib)
+    if contrib:
+        return feature_importance_df, oof_preds, sub_preds, np.vstack(oof_contrib)
+    else:
+        return feature_importance_df, oof_preds, sub_preds
 
 
 def score_lightgbm(preds, target, threshold=0.5, beta=1, verbose=True):
+    """ Calculate roc auc, accuracy, precision, recall and fbeta metrics
+    Args
+    preds : array with predicted probabilities
+    target : array with binary targets (0,1)
+    theshold : float dertermining threshold to predict class
+    beta : float to calculate fbeta score
+    verbose: boolean, if True print metrics on screen
+
+    return :
+    prf summary : dataframe with precision, recall, fbeta score for each class and their weighted average
+    """
 
     adj_preds = np.where(preds > threshold, 1, 0)
 
@@ -155,6 +169,9 @@ def score_lightgbm(preds, target, threshold=0.5, beta=1, verbose=True):
 
 
 def display_importances(feature_importance_df_, save_files=True):
+    """
+    plot top 40 most important features
+    """
 
     cols = feature_importance_df_[["feature", "importance"]].groupby("feature").mean()
     cols = cols.sort_values(by="importance", ascending=False)[:40].index
