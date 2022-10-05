@@ -32,7 +32,9 @@ with tab1:
                 ' score and the current credit application\n___')
 
     col1, col2, col3 = st.columns([2, 1, 1])
+    # building gauge
     with col1:
+
         st.subheader("Default Risk")
 
         pred_value = test.loc[test['SK_ID_CURR'] == app_id, 'PREDS']
@@ -67,7 +69,7 @@ with tab1:
                      )
 
         st.plotly_chart(fig2, use_container_width=True, sharing="streamlit")
-
+    # display credit amount
     with col2:
         st.subheader("credit amount")
 
