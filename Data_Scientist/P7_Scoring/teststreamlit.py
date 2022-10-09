@@ -1,16 +1,11 @@
-import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
-from pathlib import Path
 from preprocess import *
 from lgbm_shap import *
-
-import os
-
 
 path = Path(__file__).parent
 path_data = path.joinpath('Data')
@@ -19,7 +14,7 @@ path_data = path.joinpath('Data')
 st.set_page_config(page_title='PRET A DEPENSER - Scoring Client', layout='wide')
 
 
-@st.cache(allow_output_mutation =True)
+@st.cache(allow_output_mutation=True)
 def load_data():
 
     train_df = pd.read_csv(path/'proc_train_df.csv', index_col=0)
@@ -49,12 +44,12 @@ with tab1:
     pred_value = test.loc[test['SK_ID_CURR'] == app_id, 'PREDS']
     st.header(f"Application Status")
     if float(pred_value) < 0.3:
-        st.success(body="Approved"+ "✅")
+        st.success(body="Approved" + "✅")
     else:
         st.error(body="Rejected"+"\U0000274C")
 
     st.markdown('This section provides information about the client default'
-                    ' score and the current credit application\n___')
+                ' score and the current credit application\n___')
 
     col1, col2, col3 = st.columns([2, 1, 1])
     # building gauge
@@ -145,7 +140,7 @@ with tab1:
         shap_values, exp_values, feat_values, feat_names = shap_viz_prep(contribs, feats, test)
         st.set_option('deprecation.showPyplotGlobalUse', False)
         cmap = matplotlib.colors.LinearSegmentedColormap.from_list('score_cmap', colors=cols, N=100)
-        fig, ax = plt.subplots(figsize=(5,10))
+        fig, ax = plt.subplots(figsize=(5, 10))
         st.pyplot(shap.decision_plot(exp_values[index],
                                      shap_values[index],
                                      feat_values[index],
@@ -159,8 +154,6 @@ with tab1:
     with col5:
         image = Image.open(path / 'shap_summary.png')
         st.image(image)
-
-
 
     st.markdown('\n___')
     st.subheader("Scoring in depth analysis")
@@ -179,16 +172,16 @@ with tab1:
         def plot_main_variables(variable):
             # if variable in exp_variables:
             var_value = float(test.loc[test['SK_ID_CURR'] == app_id, variable])
-            fig_source, ax = plt.subplots()
+            fig_source, ax0 = plt.subplots()
             for location in ['top', 'right']:
-                    ax.spines[location].set_visible(False)
-            ax.axvline(x=var_value, ymin=0, ymax=1, color="black")
+                ax0.spines[location].set_visible(False)
+            ax0.axvline(x=var_value, ymin=0, ymax=1, color="black")
             sns.kdeplot(
                     data=var_df, x=variable, hue="TARGET",
                     fill=True, common_norm=False, palette=["#267302", "#BF0413"],
-                    alpha=.5, linewidth=0, ax=ax
+                    alpha=.5, linewidth=0, ax=ax0
             )
-            ax.legend(labels=[app_id, 1, 0], frameon=0, loc="best")
+            ax0.legend(labels=[app_id, 1, 0], frameon=0, loc="best")
 
             return fig_source
 
@@ -199,6 +192,7 @@ with tab1:
         st.subheader("Main variables correlations")
         exp_variables2 = st.multiselect('Select two variables for scoring explanation',
                                         feats)
+
         @st.cache
         def plot_bivariate(var0, var1):
 
@@ -210,7 +204,7 @@ with tab1:
                                  opacity=0.3,
                                  color_discrete_map={0: "#267302", 1: "#BF0413"},
                                  trendline='ols'
-                             )
+                                 )
             fig_biv.update_traces(marker={"symbol": 0, "size": 6})
 
             fig_biv.add_trace(
@@ -275,7 +269,6 @@ with tab2:
     col3.metric(label="Children", value=f"{children}", delta=None)
 
     st.markdown('\n___')
-
 
     fig = px.histogram(birth_df, x="APPLI_YEARS_BIRTH", color="TARGET",
                        title="Client Age Distribution",
