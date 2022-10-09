@@ -1,11 +1,13 @@
 import pandas as pd
 import numpy as np
-
+from pathlib import Path
 
 def previous_applications():
     """ perform preprocessing of previous applications """
+    path = Path(__file__).parent
+    path_data = path.joinpath('Data')
 
-    prev_app = pd.read_csv("./Data/previous_application.csv")
+    prev_app = pd.read_csv(path_data/"previous_application.csv")
 
     # CLEANING ANOMALIES
     # removing lines where both amt_applications and amt_credit are zero or null

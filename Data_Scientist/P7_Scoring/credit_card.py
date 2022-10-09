@@ -1,9 +1,12 @@
 import pandas as pd
-
+from pathlib import Path
 
 def credit_card_balance():
     """ perform preprocessing of credit card balance """
-    ccb = pd.read_csv("./Data/credit_card_balance.csv")
+    path = Path(__file__).parent
+    path_data = path.joinpath('Data')
+
+    ccb = pd.read_csv(path_data/"credit_card_balance.csv")
 
     # statistics for 12 months
     ccb6 = ccb.groupby(['SK_ID_CURR', 'SK_ID_PREV']).tail(12)

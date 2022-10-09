@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+from pathlib import Path
+
 
 
 def one_hot_encoder(df, nan_as_category=False):
@@ -11,9 +13,11 @@ def one_hot_encoder(df, nan_as_category=False):
 
 
 def application_train_test():
+    path = Path(__file__).parent
+    path_data = path.joinpath('Data')
     # Read data and merge
-    df = pd.read_csv('./Data/application_train.csv')
-    test_df = pd.read_csv('./Data/application_test.csv')
+    df = pd.read_csv(path_data/'application_train.csv')
+    test_df = pd.read_csv(path_data/'application_test.csv')
     print("Train samples: {}, test samples: {}".format(len(df), len(test_df)))
     df = pd.concat([df, test_df]).reset_index(drop=True)
 

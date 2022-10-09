@@ -60,7 +60,7 @@ def preprocessing():
     # Divide in training/validation and test data
     train_df = df[df['TARGET'].notnull()].copy()
     train_df.to_csv('train_df.csv')
-    test_df = df[df['TARGET'].isnull()].copy()
+    test_df = df[df['TARGET'].isnull()].copy().reset_index(drop=True)
     print("Preprocessing Done. Train shape: {}, test shape: {}".format(train_df.shape, test_df.shape))
     del df
 

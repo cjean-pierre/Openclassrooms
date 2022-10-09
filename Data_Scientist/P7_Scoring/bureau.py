@@ -1,11 +1,14 @@
 import pandas as pd
-
+from pathlib import Path
 
 def bureau_and_balance():
-    """ perform preprocessing of bureau and bureau balance files """
 
-    bureau_balance = pd.read_csv("./Data/bureau_balance.csv")
-    bureau = pd.read_csv("./Data/bureau.csv")
+    """ perform preprocessing of bureau and bureau balance files """
+    path = Path(__file__).parent
+    path_data = path.joinpath('Data')
+
+    bureau_balance = pd.read_csv(path_data/"bureau_balance.csv")
+    bureau = pd.read_csv(path_data/"bureau.csv")
 
     # bureau_balance aggregation before merge
     bb_aggregations = {'MONTHS_BALANCE': ['min', 'max', 'count']}

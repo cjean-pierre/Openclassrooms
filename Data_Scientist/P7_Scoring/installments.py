@@ -1,10 +1,13 @@
 import pandas as pd
+from pathlib import Path
 
 
 def installments_payments():
     """ perform preprocessing of credit installments_payments """
+    path = Path(__file__).parent
+    path_data = path.joinpath('Data')
 
-    ins = pd.read_csv('./Data/installments_payments.csv')
+    ins = pd.read_csv(path_data/"installments_payments.csv")
 
     # CLEANING
     # treating nan values

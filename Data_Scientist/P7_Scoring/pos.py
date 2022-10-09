@@ -1,10 +1,12 @@
 import pandas as pd
-
+from pathlib import Path
 
 def pos_cash():
     """ perform preprocessing of pos cash balance file """
+    path = Path(__file__).parent
+    path_data = path.joinpath('Data')
 
-    pos = pd.read_csv("./Data/POS_CASH_balance.csv")
+    pos = pd.read_csv(path_data/"POS_CASH_balance.csv")
 
     # STATISTICS ON DPD
     agg0 = {'SK_DPD': ['sum', 'mean'],
