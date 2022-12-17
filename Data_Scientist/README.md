@@ -96,3 +96,14 @@ Présenter son travail de modélisation à l'oral -
 Définir la stratégie d’élaboration d’un modèle d’apprentissage supervisé-
 Déployer un modèle via une API dans le Web -
 Définir et mettre en œuvre un pipeline d’entraînement des modèles
+
+## [Projet 8 - Déployez un modèle dans le cloud](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P8_Cloud)
+### Scénario
+Vous êtes Data Scientist dans une très jeune start-up de l'AgriTech, nommée  "Fruits!", qui cherche à proposer des solutions innovantes pour la récolte des fruits.
+Vous êtes donc chargé de développer dans un environnement Big Data une première chaîne de traitement des données consituées d'images de fruits et de leurs labels qui comprendra le preprocessing et une étape de réduction de dimension.
+### Résumé
+
+### Compétences mises en oeuvre
+Paralléliser des opérations de calcul avec Pyspark - Utiliser les outils du cloud pour manipuler des données dans un environnement Big Data - Identifier les outils du cloud permettant de mettre en place un environnement Big Data
+
+
