@@ -79,7 +79,7 @@ Prétraiter des données image pour obtenir un jeu de données exploitable -
 Représenter graphiquement des données à grandes dimensions -
 Mettre en œuvre des techniques de réduction de dimension
 
-## [Projet 7 - Classifiez des biens de consommation](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P6_Classification_Etude)
+## [Projet 7 - Classifiez des biens de consommation](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P7_Scoring)
 ### Scénario
 Vous êtes Data Scientist au sein d'une société financière, nommée "Prêt à dépenser", qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d'historique de prêt.
 L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé.
