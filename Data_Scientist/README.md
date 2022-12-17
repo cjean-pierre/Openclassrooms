@@ -70,3 +70,29 @@ Adapter les hyperparamètres d'un algorithme non supervisé afin de l'améliorer
 ## [Projet 6 - Classifiez des biens de consommation](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P6_Classification_Etude)
 ### Scénario
 Votre entreprise cherche à lancer une place de marché e-commerce. Vous devrez tester la faisabilité d'un moteur de classification de biens de consommation.
+
+### Résumé
+
+### Compétences mises en oeuvre
+Prétraiter des données texte pour obtenir un jeu de données exploitable - 
+Prétraiter des données image pour obtenir un jeu de données exploitable -
+Représenter graphiquement des données à grandes dimensions -
+Mettre en œuvre des techniques de réduction de dimension
+
+## [Projet 7 - Classifiez des biens de consommation](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P6_Classification_Etude)
+### Scénario
+Vous êtes Data Scientist au sein d'une société financière, nommée "Prêt à dépenser", qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d'historique de prêt.
+L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé.
+
+### Résumé
+
+### Compétences mises en oeuvre
+Définir et mettre en œuvre une stratégie de suivi de la performance d’un modèle -
+Réaliser un dashboard pour présenter son travail de modélisation -
+Rédiger une note méthodologique afin de communiquer sa démarche de modélisation-
+Utiliser un logiciel de version de code pour assurer l’intégration du modèle -
+Évaluer les performances des modèles d’apprentissage supervisé selon différents critères -
+Présenter son travail de modélisation à l'oral -
+Définir la stratégie d’élaboration d’un modèle d’apprentissage supervisé-
+Déployer un modèle via une API dans le Web -
+Définir et mettre en œuvre un pipeline d’entraînement des modèles
