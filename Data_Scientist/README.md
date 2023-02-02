@@ -50,10 +50,10 @@ style="width:400px;height:220px; display:block;"
 align="middle"/>
 
 ### Compétences mises en oeuvre
-Mise en place un modèle d'apprentissage supervisé adapté à une problématique métier
-Adapter les hyperparamètres d'un algorithme d'apprentissage supervisé afin de l'améliorer
-Transformer les variables pertinentes d'un modèle d'apprentissage supervisé
-Évaluer les performances d’un modèle d'apprentissage supervisé
+Mise en place un modèle d'apprentissage supervisé adapté à une problématique métier<br>
+Adapter les hyperparamètres d'un algorithme d'apprentissage supervisé afin de l'améliorer<br>
+Transformer les variables pertinentes d'un modèle d'apprentissage supervisé<br>
+Évaluer les performances d’un modèle d'apprentissage supervisé<br>
 
 ## [Projet 5 - Segmentez des clients d'un site e-commerce](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P5_Customer%20segmentation)
 
@@ -62,10 +62,10 @@ Vous êtes consultant pour Olist, un site e-commerce brésilien. Les équipes ma
 ### Résumé
 
 ### Compétences mises en oeuvre
-Mettre en place le modèle d'apprentissage non supervisé adapté au problème métier
-Transformer les variables pertinentes d'un modèle d'apprentissage non supervisé
-Adapter les hyperparamètres d'un algorithme non supervisé afin de l'améliorer
-Évaluer les performances d’un modèle d'apprentissage non supervisé
+Mettre en place le modèle d'apprentissage non supervisé adapté au problème métier<br>
+Transformer les variables pertinentes d'un modèle d'apprentissage non supervisé<br>
+Adapter les hyperparamètres d'un algorithme non supervisé afin de l'améliorer<br>
+Évaluer les performances d’un modèle d'apprentissage non supervisé<br>
 
 ## [Projet 6 - Classifiez des biens de consommation](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P6_Classification_Etude)
 ### Scénario
@@ -74,10 +74,10 @@ Votre entreprise cherche à lancer une place de marché e-commerce. Vous devrez 
 ### Résumé
 
 ### Compétences mises en oeuvre
-Prétraiter des données texte pour obtenir un jeu de données exploitable - 
-Prétraiter des données image pour obtenir un jeu de données exploitable -
-Représenter graphiquement des données à grandes dimensions -
-Mettre en œuvre des techniques de réduction de dimension
+Prétraiter des données texte pour obtenir un jeu de données exploitable - <br>
+Prétraiter des données image pour obtenir un jeu de données exploitable -<br>
+Représenter graphiquement des données à grandes dimensions -<br>
+Mettre en œuvre des techniques de réduction de dimension<br>
 
 ## [Projet 7 - Classifiez des biens de consommation](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P7_Scoring)
 ### Scénario
@@ -87,15 +87,15 @@ L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour 
 ### Résumé
 
 ### Compétences mises en oeuvre
-Définir et mettre en œuvre une stratégie de suivi de la performance d’un modèle -
-Réaliser un dashboard pour présenter son travail de modélisation -
-Rédiger une note méthodologique afin de communiquer sa démarche de modélisation-
-Utiliser un logiciel de version de code pour assurer l’intégration du modèle -
-Évaluer les performances des modèles d’apprentissage supervisé selon différents critères -
-Présenter son travail de modélisation à l'oral -
-Définir la stratégie d’élaboration d’un modèle d’apprentissage supervisé-
-Déployer un modèle via une API dans le Web -
-Définir et mettre en œuvre un pipeline d’entraînement des modèles
+Définir et mettre en œuvre une stratégie de suivi de la performance d’un modèle -<br>
+Réaliser un dashboard pour présenter son travail de modélisation -<br>
+Rédiger une note méthodologique afin de communiquer sa démarche de modélisation-<br>
+Utiliser un logiciel de version de code pour assurer l’intégration du modèle -<br>
+Évaluer les performances des modèles d’apprentissage supervisé selon différents critères -<br>
+Présenter son travail de modélisation à l'oral -<br>
+Définir la stratégie d’élaboration d’un modèle d’apprentissage supervisé-<br>
+Déployer un modèle via une API dans le Web -<br>
+Définir et mettre en œuvre un pipeline d’entraînement des modèles<br>
 
 ## [Projet 8 - Déployez un modèle dans le cloud](https://github.com/cjean-pierre/Openclassrooms/tree/main/Data_Scientist/P8_Cloud)
 ### Scénario
@@ -104,6 +104,8 @@ Vous êtes donc chargé de développer dans un environnement Big Data une premi�
 ### Résumé
 
 ### Compétences mises en oeuvre
-Paralléliser des opérations de calcul avec Pyspark - Utiliser les outils du cloud pour manipuler des données dans un environnement Big Data - Identifier les outils du cloud permettant de mettre en place un environnement Big Data
+Paralléliser des opérations de calcul avec Pyspark -<br>
+Utiliser les outils du cloud pour manipuler des données dans un environnement Big Data -<br>
+Identifier les outils du cloud permettant de mettre en place un environnement Big Data<br>
 
 
